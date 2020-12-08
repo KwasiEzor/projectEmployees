@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  min-height: 70vh;
+  background: #2fb5fc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #8352fd,
+    #2fb5fc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #8352fd,
+    #2fb5fc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.t-shadow {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#navbarSupportedContent > a {
+  margin-left: -1rem;
+}
+body > header > nav > div > button > span.navbar-toggler-icon {
+  color: white !important;
+}
+#left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+#right {
+  padding: 2rem 1rem;
+}
+#right img {
+  min-width: 300px;
+  width: 80%;
+}
+main section.container{
+    margin-bottom: 5rem;
+}
+main .form-group .fas{
+    margin-right: .5rem;
+    color: #8352fd;
+    font-size: 1.2rem;
+}
+main {
+  width: 100%;
+}
+body > main > section > div > div.col-sm-12.col-md-7 > div.row.text-center > div:nth-child(3) > a,
+body > main > section > div > div.col-sm-12.col-md-7 > div.row.text-center > div:nth-child(2) > a,
+body > main > section > div > div.col-sm-12.col-md-7 > div.row.text-center > div:nth-child(1) > a,
+body > main > section > div > div.col-sm-12.mb-4.col-md-5 > div > div.card-header.p-0 > div,
+body > main > section > div > div.col-sm-12.mb-4.col-md-5 > div > div.card-body.p-3 > div.text-center > input{
+     background: -webkit-linear-gradient(
+    to top,
+    #8352fd,
+    #2fb5fc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #8352fd,
+    #2fb5fc
+  ); 
+}
+#footer {
+  justify-content: flex-end;
+  padding: 1rem 0 0rem 4rem;
+}
+#footer .col-md-3 {
+  padding-left: 1.5rem;
+}
+#footer .col-md-3 .fas {
+  margin-left: -1rem;
+  margin-right: 0.5rem;
+  color: #8352fd;
+}
+#footer .col-md-3 ul li a {
+  color: #111;
+  transition: 350ms ease;
+  text-decoration: none;
+}
+#footer .col-md-3 ul li a:hover {
+  color: #8352fd;
+}
+#footer .col-md-3 ul li {
+  list-style: square;
+}
+#footer .col-md-3 h4:not(:nth-child(4)) {
+  margin-bottom: 1.5rem;
+}
