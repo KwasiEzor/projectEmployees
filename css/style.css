@@ -28,6 +28,9 @@ header {
 #navbarSupportedContent > a {
   margin-left: -1rem;
 }
+.btn {
+  margin: 1rem 2rem;
+}
 body > header > nav > div > button > span.navbar-toggler-icon {
   color: white !important;
 }
@@ -35,7 +38,7 @@ body > header > nav > div > button > span.navbar-toggler-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 3.5rem;
 }
 #right {
   padding: 2rem 1rem;
@@ -46,6 +49,47 @@ body > header > nav > div > button > span.navbar-toggler-icon {
 }
 main {
   width: 100%;
+}
+.read-more {
+  background-color: #8352fd;
+  color: #fff;
+}
+
+main .container-fluid {
+  padding: 1rem;
+}
+main .container-fluid .row {
+  padding: 1rem;
+  gap: 0.5rem;
+}
+main .container-fluid .row .list-group {
+  padding: 1rem;
+}
+main .container-fluid .row .list-group li {
+  list-style: none;
+  padding: 0.25rem;
+}
+main .container-fluid .row .list-group a {
+  text-decoration: none;
+  color: #2fb5fc;
+}
+main .container-fluid .row .col-md-3 {
+  background-color: #3f3d56;
+  color: #fff;
+  padding: 0 1rem;
+  border-radius: 4px;
+}
+main .container-fluid .row .col-md-3 .charts i {
+  font-size: 2rem;
+}
+main .container-fluid .row .col-md-4 {
+  padding: 0;
+}
+.box:hover {
+  cursor: pointer;
+  box-shadow: 0 0 4px rgb(194, 192, 192);
+  transition: transform 300ms ease;
+  transform: scale(1.015);
 }
 #footer {
   justify-content: flex-end;
